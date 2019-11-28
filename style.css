@@ -10,8 +10,6 @@ body {
 /* Navigation */
 
 .navbar {
-    width: 100vw;
-    position: fixed;
     padding: 0
 }
 
@@ -35,6 +33,10 @@ body {
 }
 
 /* Slider */
+
+.carousel {
+    position: relative;
+}
 
 .carousel-inner img {
     width: 100%;
@@ -86,16 +88,7 @@ body {
 
 
 /*---Media Queries --*/
-@media (max-width: 992px) {
-    .carousel-caption h2 {
-        font-size: 350%;
-    }
-
-    .carousel-caption h3 {
-        font-size: 200%;
-        font-weight: 400;
-    }
-}
+@media (max-width: 992px) {}
 
 @media (max-width: 768px) {
     .carousel-caption {
@@ -122,15 +115,7 @@ body {
 }
 
 @media (max-width: 576px) {
-    .carousel-caption h2 {
-        font-size: 150%;
-    }
-
-    .carousel-caption h3 {
-        font-size: 80%;
-        font-weight: 200;
-    }
-
+    
     .jumbotron p {
         font-size: 80%;
     }
