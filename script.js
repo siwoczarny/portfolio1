@@ -7,10 +7,10 @@ window.onload = function () {
         var navbar = document.getElementById("logo");
         var yScrollAxis = window.pageYOffset;
 
-        if (yScrollAxis > 100)
+        if (yScrollAxis > 50)
             navbar.style.maxHeight = "40px";
         else
-            navbar.style.maxHeight = "56px";
+            navbar.style.maxHeight = "48px";
 
 
     };
