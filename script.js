@@ -10,7 +10,7 @@ window.onload = function () {
         if (yScrollAxis > 50)
             navbar.style.maxHeight = "40px";
         else
-            navbar.style.maxHeight = "48px";
+            navbar.style.maxHeight = "56px";
 
 
     };
