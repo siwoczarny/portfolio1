@@ -70,13 +70,16 @@ body {
 /* Welcome section */
 
 .welcome {
-    padding: 8rem;
+    padding: 4rem;
 }
 
 /* Technology section */
 
+
+
 /* Me */
 .avatar {
+    padding-top: 4rem;
     text-align: center;
 }
 
@@ -85,10 +88,34 @@ body {
     border-radius: 50%;
 }
 
-/* Kontakt */
+
+
+/* Contact */
 
 .contact {
     padding: 8rem 0;
+}
+
+.social i {
+    padding: 1rem 1rem;
+}
+
+/* Fotter */
+
+.info {
+    background-color: grey;
+    padding: 2rem 0;
+}
+
+.info img {
+    max-height: 80px;
+    max-width: 80px;
+    padding-bottom: 2rem;
+}
+
+.info p {
+    font-size: 100%;
+    margin: 0;
 }
 
 
@@ -121,5 +148,13 @@ body {
     
     .jumbotron p {
         font-size: 80%;
+    }
+
+    .welcome h1 {
+        font-size: 250%;
+    }
+
+    .welcome p {
+        font-size: .9rem;
     }
 }
